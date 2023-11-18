@@ -1,0 +1,38 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #1ECBE1;
+}
+.quote-box{
+	height: 180px;
+	width:600px;
+	border-radius: 10px;
+	padding: 2rem;
+	text-align: center;
+	background-color: white;
+	position: relative;
+}
+#author{
+	position: absolute;
+	right: 1.5rem;
+	bottom: 1.5rem;
+	font-size:15px;
+	font-weight:600;
+}
+p{
+	font-size: 25px;
+	font-weight: 600;
+	color: grey;
+}
+button{
+	margin-top: 3rem;
+	background-color: #E1341E;
+	padding: 1rem 2.5rem;
+	border: none;
+	font-weight: 600;
+	font-size: 1.3rem;
+	color: white;
+	border-radius: 1.1rem;
+}
